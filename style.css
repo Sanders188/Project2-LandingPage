@@ -35,3 +35,127 @@
 li {
     list-style: none;
 }
+.media {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    background-color: #1F2937;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.figure {
+    max-width: 400px;
+    flex: 1;
+    padding: 10px;
+}
+
+.media-body {
+    padding-top: 10px;
+    flex-wrap: wrap;
+
+}
+
+button {
+    background-color: rgb(76, 210, 240);
+    color: white;
+    border-radius: 10%;
+    height: 30px;
+    width: 80px;
+    margin-top: 10px;
+    border: rgb(76, 210, 240);
+}
+h3 {
+    font-size: 50px;
+
+}
+p {
+    margin-right: 5px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.picture-container {
+    display: flex;
+    text-align: center;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.bird {
+    height: 200px;
+    width: 200px;
+    border-radius: 10%;
+    border-color: black;
+}
+
+.testimonial-container {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(225, 221, 221);
+    padding: 20px;
+    height: 250px;
+
+}
+
+.testimonial-container .paragraph {
+    width: 700px;
+}
+
+.testimonial-container .thor {
+    /* align-self: flex-end; */
+    margin-left: 600px;
+    padding-top: 20px;
+}
+
+.action {
+    background-color: #3b88db;
+    display: flex;
+    padding: 50px;
+    /* margin: 50px 70px;
+    width: 700px; */
+    width:800px;
+    margin: 25px auto;
+    border-radius: 2%;
+    justify-content: space-around;
+}
+
+.action-container {
+    height: 300px;
+    display: flex;
+    align-items: center;
+}
+h4 {
+    color: white;
+}
+.first-call p {
+    color: white;
+}
+
+.button-call  {
+    background-color: #3b88db;
+    color: white;
+    border-radius: 10%;
+    height: 30px;
+    width: 80px;
+    margin-top: 10px;
+    border:  2px solid white;
+}
+
+footer {
+    display: flex;
+    text-align: center;
+    background-color: #1F2937;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
